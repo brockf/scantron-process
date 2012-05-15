@@ -4,6 +4,15 @@
 #
 # Converts an ugly RESPONSES Scantron Excel file (converted to CSV) into a proper datasheet
 # that can be correlated, curved, analyzed, etc.
+#
+# INSTRUCTIONS:
+#   1) Open your "*-RESP.xlsx" Scantron RESPONSES report in Excel.
+#   2) Save as a .CSV file.
+#   3) Configure the excel_folder and excel_file_csv variables (below) in this R script, to
+#      point to this CSV file.  By default, it will look for excel_file_csv in your current working
+#      directory.
+#   4) Run scantron_process() to create your new analyzeable datafile.
+#
 # 
 # (C) Copyright 2012, Brock Ferguson (brockferguson.com)
 # 
